@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/flipping.css">
+	</head>
+	<body>
+		<!-- O atributo "ontouchstart" faz com que a animação seja compatível com telas senvíveis ao toque
+		OBS: Vou separar esse código do HTML e colocá-lo em um .js -->
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="front">
+					<!-- O conteúdo que vem em primero/frente -->
+					<article class="service bg-white radius">
+						<a href="#"><img src="img/atc-img-1.jpg" alt="Design"></a>
+						<div class="inner">
+					 		<a href="#"></a>
+					 		<h4>Passe o Mouse</h4>
+					 			<p>Lorem ipsum luctus interdum quam arcu tincidunt sociosqu elementum scelerisque odio mauris cursus aliquet, bibendum risus aliquam conubia sem eros interdum donec nibh porttitor est porta. est quam dictumst class nulla torquent, hac auctor elementum habitant sapien, adipiscing nulla pretium gravida.</p>
+						</div>
+					</article>
+				</div>
+				<div class="back">
+					<!-- O conteúdo que vem em segundo/atrás -->
+					<article class="service bg-white radius">
+						<a href="#"><img src="img/atc-img-2.jpg" alt="Design"></a>
+						<div class="inner">
+					 		<a href="#"></a>
+					 		<h4>Tire o Mouse</h4>
+					 			<p>Lorem ipsum luctus interdum quam arcu tincidunt sociosqu elementum scelerisque odio mauris cursus aliquet, bibendum risus aliquam conubia sem eros interdum donec nibh porttitor est porta. est quam dictumst class nulla torquent, hac auctor elementum habitant sapien, adipiscing nulla pretium gravida.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
